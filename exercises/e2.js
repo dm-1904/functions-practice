@@ -23,9 +23,9 @@ function rectArea(arg1, arg2) {
 
 // Your code goes here:
 
-rectArea(4, 6)
-rectArea(13, 3)
-rectArea(4, 8)
+const room1 =rectArea(4, 6)
+const room2 =rectArea(13, 3)
+const room3 =rectArea(4, 8)
 
 
 

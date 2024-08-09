@@ -18,7 +18,7 @@ const getDiffTwentySeven = (num) => {
   if(num < 27) {
     return 27 - num
   }
-  return num - 27
+  return (num - 27) * 2
 }
 
 
@@ -61,7 +61,7 @@ const isOneOfThemOrTheirSumIsFourty = (num1, num2) => {
   if(num1 + num2 === 40) {
     return true
   }
-  return false 
+  return false
 }
 
 
